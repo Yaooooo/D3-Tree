@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta name="description" content="D3.js : Playground for d3js"/>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+
+    <!-- d3.js -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="ZeroClipboard.js"></script>
+
+    <title>D3_report.js</title>
+</head>
+
+<body>
+    <div id="tree-container">
+        <p><input type="button" id="copyButton" value="copy" name="copy"></input></p>
+        <svg class = "overlay">
+            <g></g>
+        </svg>
+        <b id="copyLink" class="copyLink">text</b>
+        <form>
+            Corner:<select id="corner" name="Corner"></select><br>
+            Package:<select id="package" name="Package"></select><br>
+            Arc:<select id="arc" name="Arc"></select><br>
+            Inst_Class:<select id="instclass" name="Inst_Class"></select><br>
+            Inst_Group1:<select id="igroup1" name="Inst_Group1"></select><br>
+            Inst_Group2:<select id="igroup2" name="Inst_Group2"></select><br>
+            Instance:<select id="instance" name="Instance"></select><br>
+        </form>
+    </div>
+    <!-- Load application -->
+    <script src="js/app.js"></script>
+</body>
+</html>
